@@ -1,0 +1,102 @@
+html{
+    background-color: fff;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.cv {
+    background-color:  #f5f0e1;
+    margin:10px;
+    width: 800px;
+}
+
+.header {
+    background-color:#1e3d59 ;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+.gambar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    padding:20px;
+}
+
+.judul{
+    color: white;
+}
+
+.navbar{
+    display:flex;
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    background-color: #ffc13b;
+}
+
+.navbar>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navbar>li>a:hover{
+    color: #ffc13b;
+    transition: all .3s ease-in-out ;
+} 
+
+.menu a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.tentang{
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+}
+
+.video {
+    text-align: center;
+}
+
+.pengalaman {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.pengalaman table{
+    width:100%;
+}
+
+.kontak{
+    margin: 10px;
+    padding:20px;
+    background-color: white;
+}
+
+.kontak button {
+    background-color: lightgreen;
+}
+
+.bawah {
+    justify-content: center;
+    background-color: #1e3d59;
+    color: white;
+    text-align: center;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform:uppercase ;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
