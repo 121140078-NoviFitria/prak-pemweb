@@ -1,0 +1,54 @@
+<!--
+    Nama : Novi Fitria Ramadhan 
+    NIM : 121140078
+    Kelas : RC
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Genap Ganjil </title>
+</head>
+<body>
+
+<script>
+    function HitungGenap(a){
+        let genap = 0;
+        for (let i=1; i<=a; i++){
+            if (i % 2 == 0){
+                genap++;
+            }
+        }
+        return genap;
+    }
+
+    function HitungGanjil(a){
+        let ganjil = 0;
+        for (let i=1; i<=a; i++){
+            if (i%2 != 0){
+                ganjil++;
+            }
+        }
+        return ganjil;
+    }
+
+    while (pilihan = true){
+        let a = prompt("Masukkan Angka : ");
+
+        let genap = HitungGenap(a);
+        let ganjil = HitungGanjil(a);
+
+        alert ("Jumlah Bilangan Ganjil : " + ganjil + "\n Jumlah Bilangan Genap : " + genap );
+
+        let lanjut = prompt("Apakah ingin mengulang perhitungan? (Y/N)");
+        if (lanjut == "Y"){
+            pilihan == true;
+        }else {
+            alert ("Program perhitungan Ganjil Genap Selesai ")
+            break;
+        }
+    }
+</script>
+</body>
+</html>
